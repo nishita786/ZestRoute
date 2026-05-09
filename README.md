@@ -113,23 +113,30 @@ ZestRoute/
 - Interactive Dashboard Filtering
 
 ---
-
 ## Power BI Dashboard
 
-screenshots/Power BI Dashboard.png
+The Power BI dashboard provides an interactive visualization layer for monitoring delivery operations and business KPIs.  
+It includes insights related to total orders, average delivery time, delivery agent ratings, and performance tracking using dynamic filters and slicers.
+
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
 ## AWS S3 Data Lake
 
-screenshots/screenshots:aws_s3_processed.png
+AWS S3 is used as the cloud-based storage layer for maintaining both raw and processed delivery datasets.  
+The bucket structure demonstrates a simplified data lake architecture separating ingestion and transformed data layers.
+
+![AWS S3](screenshots/aws_s3_architecture.png)
 
 ---
 
 ## Snowflake SQL Analytics
-screenshots/snowflake_delivery_analytics.png
 
----
+Snowflake is used for cloud-based SQL analytics and querying on transformed delivery datasets.  
+Analytical SQL queries and views were created to evaluate delivery agent performance, ratings distribution, delivery efficiency, and operational trends.
+
+![Snowflake](screenshots/snowflake_sql_analysis.png)
 
 ## ETL Pipeline
 

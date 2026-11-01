@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets / credentials
+*.pem
+*.key
+credentials
+aws_credentials
+snowflake_credentials*
+
+# Scratch
+tmp/
+.cache/
